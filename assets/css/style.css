@@ -1,0 +1,75 @@
+/*importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    background-color: #f5f5f5;
+}
+
+body {
+    width: 1160px;
+    margin: auto;
+    background-color: #ffffff;
+    font-family: "raleway", sans serif;
+    box-sizing: border-box;
+}
+
+header , footer {
+    background-color: rgb(23, 171, 179);
+    text-align: center;
+}
+
+/* mise en page header*/
+.container-header {
+    color:#ffffff ;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* lien du header */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.container-header p {
+    align-self: center;
+    flex-basis: 27%;
+}
+
+.container-header div {
+    flex-basis: 65%;
+}
+
+img {
+    border: #ffffff solid 0.4rem;
+    border-radius: 50%;
+    width: 40%;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 800;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+h1,h2,h3,h4 {
+    font-family:"lato", sans-sérif;
+}
+
+p {
+    font-style: normal;
+}
+
+address {
+    display: flex;
+}
+
+
