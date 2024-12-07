@@ -67,6 +67,8 @@ h2 {
 
 h3 {
     color: #17abb3;
+    font-size: 1.3em;
+    margin: 2em auto 10px auto;
 }
 
 h1,h2,h3,h4 {
@@ -94,6 +96,20 @@ address {
     margin-left: 15%;
 }
 
+li {
+    list-style-type: none;
+    margin: 6px 0;
+}
+
+li::before {
+    content: '■';
+    color: #17abb3;
+    margin-right: 10px;
+}
+
+ul {
+    padding-left: 0;
+}
 
  /****
  mise en page aside et main 
@@ -112,14 +128,12 @@ main aside {
 
 hr {
     border: 2px solid rgb(51,51,51,0.1);
-}
-
-ul {
-    padding-left: 1rem;
+    margin-bottom: 1.5em;
 }
 
 .section-principal {
     padding-left: 2rem;
+    margin-bottom: 80px;
 }
 
 .align-text-end {
@@ -127,3 +141,35 @@ ul {
     flex-direction: column;
 }
 
+/*aside*/
+
+.star {
+    color: #17abb3;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.flex-container p {
+    font-weight: bold;
+}
+
+/*mise en page du texte section*/
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-top: 25px;
+}
+
+/*color date*/
+.color {
+    color: #17abb3;
+    font-weight: 500;
+}
