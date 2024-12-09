@@ -45,6 +45,8 @@
 
 html {
     background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -65,9 +67,8 @@ header , footer {
  ****/
 
 .container-header {
-    color:#ffffff ;
+    color:#ffffff;
     display: flex;
-   /*  justify-content: space-between; */
 }
 
 /* lien du header */
@@ -128,6 +129,7 @@ address {
     justify-content: center;
     padding-bottom: 25px;
     margin-left: 8%;
+    font-style: normal;
 }
 
 address :first-child {
@@ -220,7 +222,18 @@ aside
     font-weight: bold;
 }
 
-/*mise en page du texte section*/
+aside div em {
+    font-style: normal;
+}
+
+article  div small {
+    font-style: italic;
+    letter-spacing: -0.5px;
+}
+
+/***
+layout text section
+***/
 
 .flex-container2 {
     display: flex;
@@ -253,11 +266,6 @@ aside
 .color {
     color: #17abb3;
     font-weight: 500;
-}
-
-article  div small{
-    font-style: italic;
-    letter-spacing: -0.5px;
 }
 
 /***
@@ -293,4 +301,19 @@ footer p {
 
 footer nav :nth-child(2) {
     width: 20px;
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header, main,footer {
+        display: block;
+    }
 }
