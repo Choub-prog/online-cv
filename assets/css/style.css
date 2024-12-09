@@ -303,17 +303,11 @@ footer nav :nth-child(2) {
     width: 20px;
 }
 
-
 @media screen and (max-width:600px) {
     body {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-}
 
-@media screen and (max-width:600px) {
-    header, main,footer {
-        display: block;
-    }
 }
