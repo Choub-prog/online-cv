@@ -310,3 +310,9 @@ footer nav :nth-child(2) {
         width: 100%;
     }
 }
+
+@media screen and (max-width:600px) {
+    header, main,footer {
+        display: block;
+    }
+}
